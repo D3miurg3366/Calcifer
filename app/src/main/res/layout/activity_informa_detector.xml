@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".InformaDetector">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/txtMonitoreo"
+            android:layout_width="319dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="56dp"
+            android:layout_marginBottom="8dp"
+            android:text="Monitoreo"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="321dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="46dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="44dp"
+            android:layout_marginBottom="8dp"
+            android:text="Nombre de detector"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtNombreDI"
+            android:layout_width="319dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="46dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="46dp"
+            android:layout_marginBottom="10dp"
+            android:hint="nombre"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="321dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="46dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="44dp"
+            android:layout_marginBottom="10dp"
+            android:text="Valor de temperatura"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtTemperatura"
+            android:layout_width="322dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="46dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="43dp"
+            android:layout_marginBottom="4dp"
+            android:hint="0.0"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="321dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="46dp"
+            android:layout_marginEnd="44dp"
+            android:layout_marginBottom="4dp"
+            android:text="Valor de humo o gas"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtHumoGas"
+            android:layout_width="322dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="43dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="46dp"
+            android:layout_marginBottom="166dp"
+            android:hint="0.0"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="101dp"
+            android:orientation="horizontal"
+            android:paddingStart="-20dp"
+            android:paddingEnd="-40dp">
+
+            <Button
+                android:id="@+id/btnConfigura"
+                android:layout_width="wrap_content"
+                android:layout_height="71dp"
+                android:layout_marginStart="133dp"
+                android:layout_marginEnd="133dp"
+                android:layout_marginBottom="100dp"
+                android:backgroundTint="@color/color2"
+                android:text="Configurar"
+                android:textSize="20dp"
+                android:onClick="irAConfiguracion"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/btncerrarsesion"
+        android:layout_width="44dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="29dp"
+        android:onClick="onCerrarSesionClickIA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cerrarsesion" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

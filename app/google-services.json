@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "11257610774",
+    "firebase_url": "https://calcifer-ee5a4-default-rtdb.firebaseio.com",
+    "project_id": "calcifer-ee5a4",
+    "storage_bucket": "calcifer-ee5a4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:11257610774:android:2005a1383acb0c40906b37",
+        "android_client_info": {
+          "package_name": "com.example.calcifer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIHjGSUozv7itZ7vro0Qr_csMCgNJpQ1M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
