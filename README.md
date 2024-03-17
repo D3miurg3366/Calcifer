@@ -1,0 +1,1 @@
+Calcifer usa una api para comunicarse con firebase, la meta es añadirle notificaciones push con fcm.
